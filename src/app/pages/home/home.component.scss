@@ -1,0 +1,43 @@
+#first-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#second-page {
+    height: 100vh;
+    width: 100vw;
+}
+#third-page {
+    height: 100vh;
+    width: 100vw;
+}
+#button-test {
+    // Style du bouton moderne et arrondi
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+#button-test:hover {
+    // Style du bouton moderne et arrondi au survol
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#button-test:active {
+    // Style du bouton moderne et arrondi au clic
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
