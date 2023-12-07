@@ -1,1 +1,22 @@
-<app-home></app-home>
+<!-- NAVBAR -->
+<section>
+  <ul>
+    <li (click)="changePage('home')">Accueil</li>
+    <li (click)="changePage('questionnaire')">Questionnaire</li>
+    <li (click)="changePage('infos')">Infos</li>
+  </ul>
+</section>
+
+<!-- Corps de la page -->
+<span [ngSwitch]="this.page">
+<div *ngSwitchCase="'home'">
+  <app-home></app-home>
+</div>
+<div *ngSwitchCase="'questionnaire'">
+  <app-questionnaire></app-questionnaire>
+</div>
+
+<div *ngSwitchCase="'infos'">
+  <app-infos></app-infos>
+</div>
+</span>
