@@ -1,14 +1,14 @@
 <!-- NAVBAR -->
 <section>
   <ul>
-    <li (click)="changePage('home')">Accueil</li>
-    <li (click)="changePage('questionnaire')">Questionnaire</li>
-    <li (click)="changePage('infos')">Infos</li>
+    <li (click)="this.routageService.changePage('home')">Accueil</li>
+    <li (click)="this.routageService.changePage('questionnaire')">Questionnaire</li>
+    <li (click)="this.routageService.changePage('infos')">Infos</li>
   </ul>
 </section>
 
 <!-- Corps de la page -->
-<span [ngSwitch]="this.page">
+<span [ngSwitch]="this.obser | async">
 <div *ngSwitchCase="'home'">
   <app-home></app-home>
 </div>
