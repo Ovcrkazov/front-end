@@ -1,9 +1,8 @@
 <!-- NAVBAR -->
 <header>
-  <a (click)="this.routageService.changePage('home')" >
+  <a (click)="this.routageService.changePage('home')" (click)="this.addCharlie()">
     <picture>
-      <img src="https://assets.ovcrkazov.fr/images/logo.png" ng-click="count = count + 1" ng-init="count=0"/>
-      <p>The button has been clicked {{count}} times.</p>
+      <img [src]="lienImage" />
     </picture>
   </a>
   <ul>
