@@ -1,5 +1,5 @@
 <section id="AAAH" *ngIf="(questRestante == 0); else elseBlock">
-    {{ point }} / {{ maxPointPotential }}
+    <h1>{{ point }} / {{ maxPointPotential }}</h1>
     <div *ngFor="let ifn of selIndex">
       <div class="expl">
         Question / Affirmation : {{ this.data[ifn].label }}
