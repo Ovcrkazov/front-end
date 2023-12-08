@@ -14,7 +14,7 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     CompteurComponent,
     QuestionnaireComponent,
-    InfosComponent
+    InfosComponent,
   ],
   imports: [
     BrowserModule,
