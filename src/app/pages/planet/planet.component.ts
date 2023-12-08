@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 
 import * as THREE from 'three';
 
@@ -7,14 +7,15 @@ import * as THREE from 'three';
   templateUrl: './planet.component.html',
   styleUrls: ['./planet.component.scss']
 })
-export class PlanetComponent {
+export class PlanetComponent implements AfterViewInit{
 
   public renderer!: THREE.WebGLRenderer;
   public camera!: THREE.OrthographicCamera;
   public scene!: THREE.Scene;
   public planet!: THREE.Group;
+  @ViewChild('canvasAAfficher') el!: ElementRef;
 
-  constructor() {
+  ngAfterViewInit() {
   
     this.start();
 
@@ -140,11 +141,11 @@ export class PlanetComponent {
 
   public start() {
     this.scene = new THREE.Scene();
-
-    this.renderer = new THREE.WebGLRenderer({ antialias: true });
+    console.log(this.el)
+    if (this.el) {
+    this.renderer = new THREE.WebGLRenderer({ antialias: true, canvas: this.el.nativeElement});
     this.renderer.setPixelRatio(window.devicePixelRatio);
     this.renderer.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(this.renderer.domElement);
 
     // ---------------- CAMERA ----------------
     this.camera = new THREE.OrthographicCamera(
@@ -188,6 +189,7 @@ export class PlanetComponent {
     this.scene.background = new THREE.Color(0xadcbfd);
 
     this.animate();
+  }
   }
 
 
