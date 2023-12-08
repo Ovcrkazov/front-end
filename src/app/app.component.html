@@ -1,5 +1,10 @@
 <!-- NAVBAR -->
 <section>
+  <a (click)="this.routageService.changePage('home')" >
+    <picture>
+      <img  src="https://assets.ovcrkazov.fr/images/logo.png" />
+    </picture>
+  </a>
   <ul>
     <li (click)="this.routageService.changePage('home')">Accueil</li>
     <li (click)="this.routageService.changePage('questionnaire')">Questionnaire</li>
