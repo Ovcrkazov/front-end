@@ -8,19 +8,19 @@
           	"answers": [
               	{
                   	"label": "Diazote (78 %), Dioxygène (21 %) et Argon (1%)",
-          			"points": 2	
+          			"points": 2
                 },
               	{
                     "label": "Dioxyde de carbone (78 %), Dioxygène (21 %) et Diazote (1%)",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Méthane (78 %), Dioxyde de carbone (21 %) et Dioxygène (1%)",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Dioxygène (78 %), Propane (21 %) et Méthane (1%)",
-                    "points": 0	
+                    "points": 0
                 }
 			]
         },
@@ -32,19 +32,19 @@
             "answers": [
                 {
                     "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
-                    "points": 1	
+                    "points": 1
                 },
                     {
                     "label": "Se définit à partir de statistiques sur une longue période",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Se définit à partir de conditions météorologiques d'un instant donné ou d'une courte période",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
-                    "points": 0	
+                    "points": 0
                 }
           ]
       },
@@ -64,11 +64,11 @@
                 },
                 {
                     "label": "À faire une barrière contre les rayons cosmiques nocifs",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "À réguler la météo en favorisant la formation de nuages et en influençant les précipitations",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
@@ -84,15 +84,15 @@
                 },
                 {
                     "label": "Une partie vient chauffer l'atmosphère et la surface terrestre",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Une partie de l'énergie solaire est réfléchie par les particules atmosphériques, créant la luminosité du ciel que nous percevons comme la couleur bleue",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Une partie contribue à la création de la couche limite atmosphérique",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
@@ -108,15 +108,15 @@
                 },
                 {
                     "label": "Le méthane (CH4), Les gaz fluorés",
-                    "points": 2	
+                    "points": 2
                 },
                 {
                     "label": "Le Xénon (Xe), L'Hélium (He)",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "L'Oxygène (O2)",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
@@ -128,19 +128,19 @@
             "answers": [
                 {
                     "label": "Groupe d'experts intergouvernemental sur l'évolution du climat",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Organisme de l'ONU chargé d'évaluer, à travers la publication régulière de rapports, l'ensemble des connaissances scientifiques relatives au changement climatique",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Groupe International sur l'Énergie du Charbon",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Organisation mondiale axée sur la promotion et le développement de l'énergie à base de charbon",
-                    "points": -1	
+                    "points": -1
                 }
             ]
         },
@@ -176,19 +176,19 @@
             "answers": [
                 {
                     "label": "La combustion des énergies fossiles",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "La déforestation",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Les éruptions volcaniques",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Les feux d'artifice",
-                    "points": -1	
+                    "points": -1
                 }
             ]
         },
@@ -200,11 +200,11 @@
             "answers": [
                 {
                     "label": "La dilatation de l'eau",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "La fonte des glaciers",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "La fonte des calottes",
@@ -212,7 +212,7 @@
                 },
                 {
                     "label": "La fonte de la banquise",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
@@ -224,19 +224,19 @@
             "answers": [
                 {
                     "label": "Production de chaleur et d'électricité et Transports",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Agriculture, foresterie et utilisation des sols et Industrie",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Construction et production d'autre énergies",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Résidentiel et autres secteurs (tertiaire)",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
@@ -248,19 +248,19 @@
             "answers": [
                 {
                     "label": "Des incendies",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Baisse de la production agricole",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Renforcement de la couche d'ozone",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Baisse du risque de maladies hivernales",
-                    "points": -1	
+                    "points": -1
                 }
             ]
         },
@@ -272,19 +272,19 @@
             "answers": [
                 {
                     "label": "Un phénomène de transformation du climat",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Une augmentation générale des températures moyennes",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Cela correspond à l'effet de serre",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Un phénomène à l'échelle régionale",
-                    "points": -1	
+                    "points": -1
                 }
             ]
         },
@@ -300,15 +300,15 @@
                 },
                 {
                     "label": "Les moyens de transports",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "L'augmentation des activités volcaniques",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Les datacentres",
-                    "points": 1	
+                    "points": 1
                 }
             ]
         },
@@ -320,19 +320,19 @@
             "answers": [
                 {
                     "label": "Sécheresse et incendies accrus",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Baisse du risque de pluie torrentielle",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "La fonte des glaciers et l'élévation du niveau des océans",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Baisse des inondations",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
@@ -344,19 +344,19 @@
             "answers": [
                 {
                     "label": "7 tonnes de CO2eq",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "9 tonnes de CO2eq",
-                    "points": 2	
+                    "points": 2
                 },
                 {
                     "label": "15 tonnes de CO2eq",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "12 tonnes de CO2eq",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
@@ -368,19 +368,19 @@
             "answers": [
                 {
                     "label": "Trier les déchets",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Utiliser une voiture électrique",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Limiter le chauffage",
-                    "points": 1	
+                    "points": 1
                 },
                 {
                     "label": "Eteindre les appareils électrique",
-                    "points": 1	
+                    "points": 1
                 }
             ]
         }

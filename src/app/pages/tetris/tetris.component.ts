@@ -354,22 +354,20 @@ export class TetrisComponent implements AfterViewInit {
     playerReset();
     updateScore();
     update();
-    console.log(player.score);
   }
 
   public result(score: any) {
-    console.log(this.error)
     if (this.error) {
       if (score >= 404) {
         // On affiche le résultat dans la section "resulats" en créant un élément HTML la balise <a> ne doit pas devenir bleu et soulignée
         this.error.nativeElement.innerHTML =
-          '<p>Félicitation vous avez perdu votre temps ! </p><p>Votre score est de ' +
+          '<p>Félicitation vous avez perdu votre temps ! </p><br><p>Votre score est de ' +
           score +
           " points</p><a href='./404' style='color: #3877FF; text-decoration: none;'>Rejouer</a>";
       } else {
         // On affiche le résultat dans la section "resulats" en créant un élément HTML
         this.error.nativeElement.innerHTML =
-          '<p>Félicitation vous avez perdu votre temps !</p><p>Même la victoire vous ne la trouvez pas...</p><p>Votre score est de ' +
+          '<p>Félicitation vous avez perdu votre temps !</p><br><p>Même la victoire vous ne la trouvez pas...</p><p>Votre score est de ' +
           score +
           " point(s)</p><a href='./404' style='color: #3877FF; text-decoration: none;'>Rejouer</a>";
       }

@@ -1,10 +1,40 @@
+#AAAH {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #000000;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.expl {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #80cbc4;
+    border: 1px solid #075a8c;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    max-width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #Questionnaire {
     height: calc(100vh - 70px);
     display: flex ;
     justify-content: center ;
     align-items: center ;
     flex-direction: row ;
-   
+
 
     #ContentQuestionnaire{
         width: 1024px;
@@ -22,14 +52,14 @@
                 height: 200px;
             }
         }
-    
+
         p{
             font-size : 2rem ;
             color: #000000;
             text-transform: uppercase;
             align-self: center;
         }
-    
+
         #IdGridReponses{
             display: grid ;
             grid-template-columns: repeat(2, 1fr);
@@ -69,8 +99,8 @@
                 padding: 15px;
             }
         }
-    
-    
+
+
         button {
             // Style du bouton moderne et arrondi
             border: none;
@@ -82,31 +112,31 @@
             color: #000;
             text-align: center;
             transition: all 0.3s ease-in-out;
-        
+
             display: flex ;
             flex-direction: row ;
             justify-content: center ;
             align-items: center ;
-        
+
             gap: 10px ;
-        
-        
+
+
             &:hover {
                 // Style du bouton moderne et arrondi au survol
                 background-color: #65957F;
                 color: #FFFAFA;
                 cursor: pointer;
             }
-        
+
             &:active {
                 // Style du bouton moderne et arrondi au clic
                 background-color: #000;
                 color: #FFFAFA;
                 cursor: pointer;
             }
-    
+
         }
     }
-    
+
 }
 
