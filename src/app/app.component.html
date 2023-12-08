@@ -1,5 +1,5 @@
 <!-- NAVBAR -->
-<section>
+<header>
   <a (click)="this.routageService.changePage('home')" >
     <picture>
       <img  src="https://assets.ovcrkazov.fr/images/logo.png" />
@@ -10,7 +10,7 @@
     <li (click)="this.routageService.changePage('questionnaire')">Questionnaire</li>
     <li (click)="this.routageService.changePage('infos')">Informations</li>
   </ul>
-</section>
+</header>
 
 <!-- Corps de la page -->
 <span [ngSwitch]="this.obser | async">
@@ -27,3 +27,8 @@
   <app-planet></app-planet>
 </div>
 </span>
+<footer id="main-footer">
+  <div>
+    Овкразов &copy; 2023
+  </div>
+</footer>
