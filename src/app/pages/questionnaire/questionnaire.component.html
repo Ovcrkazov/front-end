@@ -1,5 +1,11 @@
-<section *ngIf="(questRestante == 0); else elseBlock">
+<section id="AAAH" *ngIf="(questRestante == 0); else elseBlock">
     {{ point }} / {{ maxPointPotential }}
+    <div *ngFor="let ifn of selIndex">
+      <div class="expl">
+        Question / Affirmation : {{ this.data[ifn].label }}
+        Explication : {{ this.data[ifn].explanation }}
+      </div>
+    </div>
 </section>
 <ng-template #elseBlock>
 
@@ -8,16 +14,16 @@
         <picture>
             <img src="/assets/backgroud_climate_change.png" />
         </picture>
-        <p>{{ data[this.actuelQuestIndex].label }}</p>
+        <p>{{ this.data[this.actuelQuestIndex].label }}</p>
         <div id="IdGridReponses">
             <label class="col1-ligne1"><input type="checkbox" [(ngModel)]="this.selectionedQuest[0]">{{ this.data[this.actuelQuestIndex].answers[0].label }}</label>
             <label class="col2-ligne1"><input type="checkbox" [(ngModel)]="this.selectionedQuest[1]">{{ this.data[this.actuelQuestIndex].answers[1].label }}</label>
             <label class="col1-ligne2"><input type="checkbox" [(ngModel)]="this.selectionedQuest[2]">{{ this.data[this.actuelQuestIndex].answers[2].label }}</label>
             <label class="col2-ligne2"><input type="checkbox" [(ngModel)]="this.selectionedQuest[3]">{{ this.data[this.actuelQuestIndex].answers[3].label }}</label>
-        </div>  
-            
+        </div>
+
         <button (click)="nextQuestion()">Prochaine question</button>
     </div>
-    
+
 </section>
 </ng-template>
