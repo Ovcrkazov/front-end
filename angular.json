@@ -117,9 +117,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [
-              "src/assets/planet.js"
-            ]
+            "scripts": []
           }
         }
       }

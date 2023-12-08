@@ -3,7 +3,6 @@
     background-size: cover;
     height: calc(100vh - 70px);
     
-
     .img-shadow{
         background-color: rgba(0, 0, 0, 0.4); 
         display: flex ;
@@ -66,7 +65,23 @@
         
     }
 
-    
+    #main-title {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+            display: inline;
+            width: 80px;
+            margin-right: 10px;
+        }
+
+        h1 {
+            display: inline;
+        }
+    }
 }
 
 #second-page {
