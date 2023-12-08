@@ -3,243 +3,384 @@
       	{
           	"label": "De quoi est composé l'enveloppe gazeuse de la Terre (l'atmosphère) ?",
 			"image": "path",
-            "category": "",
+            "category": "Connaissances générales",
+            "explanation": "La réelle composition de l'enveloppe gazeuse de la Terre est le Diazote (78 %), Dioxygène (21 %) et Argon (1%)",
           	"answers": [
               	{
                   	"label": "Diazote (78 %), Dioxygène (21 %) et Argon (1%)",
-                    "explanation": "Explication",
-          			"points": 1	
+          			"points": 2
                 },
               	{
                     "label": "Dioxyde de carbone (78 %), Dioxygène (21 %) et Diazote (1%)",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Méthane (78 %), Dioxyde de carbone (21 %) et Dioxygène (1%)",
-                    "explanation": "Explication",
                     "points": 0
                 },
                 {
                     "label": "Dioxygène (78 %), Propane (21 %) et Méthane (1%)",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 0
                 }
 			]
         },
         {
             "label": "Qu'est-ce que le climat ?",
 			"image": "path",
-            "category": "Catégorie 1",
+            "category": "Connaissances générales",
+            "explanation": "Le climat est l'ensemble des éléments qui caractérisent l'état moyen de l'atmosphère.",
             "answers": [
                 {
                     "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
-                    "explanation": "Explication",
-                    "points": -2	
+                    "points": 1
                 },
                     {
                     "label": "Se définit à partir de statistiques sur une longue période",
-                    "explanation": "Explication",
-                    "points": 3	
+                    "points": 0
                 },
                 {
                     "label": "Se définit à partir de conditions météorologiques d'un instant donné ou d'une courte période",
-                    "explanation": "Explication",
-                    "points": -2	
+                    "points": 0
                 },
                 {
                     "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
-                    "explanation": "Explication",
-                    "points": 1
+                    "points": 0
                 }
           ]
       },
       {
           "label": "À quoi servent les gaz à effet de serre ?",
           "image": "path",
-          "category": "Catégorie 1",
+          "category": "Connaissances générales",
+          "explanation": "Les gaz à effet de serre servent à retenir la chaleur terrestre provenant du soleil. Cela permet à notre planète d'avoir une température moyenne de +15°C à sa surface.",
           "answers": [
                 {
                     "label": "À retenir la chaleur terrestre provenant du soleil",
-                    "explanation": "Explication",
-                    "points": 3	
+                    "points": 1
                 },
                 {
                     "label": "Permet à notre planète d'avoir une température moyenne de +15°C à sa surface",
-                    "explanation": "Explication",
-                    "points": -2	
+                    "points": 1
                 },
                 {
                     "label": "À faire une barrière contre les rayons cosmiques nocifs",
-                    "explanation": "Explication",
-                    "points": -1	
+                    "points": 0
                 },
                 {
                     "label": "À réguler la météo en favorisant la formation de nuages et en influençant les précipitations",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
         {
             "label": "Qu'arrive-t-il à l'énergie solaire lorsqu'elle pénètre la couche atmosphérique ?",
             "image": "path",
-            "category": "Catégorie 1",
+            "category": "Connaissances générales",
+            "explanation": "Une partie est immédiatement renvoyée dans l'espace grâce à l'effet d'albédo. Une autre partie vient chauffer l'atmosphère et la surface terrestre.",
             "answers": [
                 {
                     "label": "Une partie est immédiatement renvoyée dans l'espace grâce à l'effet d'albédo (réfléchissement)",
-                    "explanation": "Explication",
                     "points": 2
                 },
                 {
                     "label": "Une partie vient chauffer l'atmosphère et la surface terrestre",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 1
                 },
                 {
                     "label": "Une partie de l'énergie solaire est réfléchie par les particules atmosphériques, créant la luminosité du ciel que nous percevons comme la couleur bleue",
-                    "explanation": "Explication",
-                    "points": -1	
+                    "points": 0
                 },
                 {
                     "label": "Une partie contribue à la création de la couche limite atmosphérique",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
         {
             "label": "Quels sont les différents types de gaz à effet de serre ?",
             "image": "path",
-            "category": "Catégorie 1",
+            "category": "Connaissances générales",
+            "explanation": "Il y a le dioxyde de carbone (CO2), le protoxyde d'azote (N2O), le méthane (CH4) et les gaz fluorés.",
             "answers": [
                 {
                     "label": "Le dioxyde de carbone (CO2), Le protoxyde d'azote (N2O)",
-                    "explanation": "Explication",
-                    "points": 2
+                    "points": 1
                 },
                 {
                     "label": "Le méthane (CH4), Les gaz fluorés",
-                    "explanation": "Explication",
-                    "points": -1	
+                    "points": 2
                 },
                 {
                     "label": "Le Xénon (Xe), L'Hélium (He)",
-                    "explanation": "Explication",
-                    "points": -1
+                    "points": 0
                 },
                 {
                     "label": "L'Oxygène (O2)",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 0
                 }
             ]
         },
         {
             "label": "Qu'est-ce que le GIEC ?",
             "image": "path",
-            "category": "Catégorie 1",
+            "category": "Connaissances générales",
+            "explanation": "Le GIEC (Groupe d'experts intergouvernemental sur l'évolution du climat) est un organisme de l'ONU chargé d'évaluer, à travers la publication régulière de rapports, l'ensemble des connaissances scientifiques relatives au changement climatique.",
             "answers": [
                 {
                     "label": "Groupe d'experts intergouvernemental sur l'évolution du climat",
-                    "explanation": "Explication",
-                    "points": 2
+                    "points": 1
                 },
                 {
                     "label": "Organisme de l'ONU chargé d'évaluer, à travers la publication régulière de rapports, l'ensemble des connaissances scientifiques relatives au changement climatique",
-                    "explanation": "Explication",
-                    "points": -3
+                    "points": 1
                 },
                 {
                     "label": "Groupe International sur l'Énergie du Charbon",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Organisation mondiale axée sur la promotion et le développement de l'énergie à base de charbon",
-                    "explanation": "Explication",
-                    "points": 1	
+                    "points": -1
                 }
             ]
         },
         {
             "label": "Quels exemples d'indicateurs le GIEC met-il en avant attestant du changement climatique en cours ?",
             "image": "path",
-            "category": "Catégorie 1",
+            "category": "Connaissances générales",
+            "explanation": "Le GIEC met en avant l'augmentation du niveau moyen de la mer, ainsi que la fonte de la cryosphère (manteau neigeux, banquise et glaciers de montagne, du Groënland ou de l'Antarctique).",
             "answers": [
                 {
                     "label": "L'augmentation du niveau moyen de la mer",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 1
                 },
                 {
                     "label": "La fonte de la cryosphère (manteau neigeux, banquise et glaciers de montagne, du Groënland ou de l'Antarctique)",
-                    "explanation": "Explication",
-                    "points": 2	
+                    "points": 1
                 },
                 {
                     "label": "La migration des pingouins vers l'équateur",
-                    "explanation": "Explication",
-                    "points": -1	
+                    "points": -1
                 },
                 {
                     "label": "L'augmentation du nombre de jours ensoleillés",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": -1
                 }
             ]
         },
         {
             "label": "D'où provient le CO2 ?",
             "image": "path",
-            "category": "Catégorie 1",
+            "category": "Connaissances générales",
+            "explanation": "Le CO2 provient de la combustion des énergies fossiles, de la déforastion, etc... Les éruptions volcaniques ne produisent que très peu de Co2, ainsi que les feu d'artifices...",
             "answers": [
                 {
                     "label": "La combustion des énergies fossiles",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 1
                 },
                 {
                     "label": "La déforestation",
-                    "explanation": "Explication",
-                    "points": 2
+                    "points": 1
                 },
                 {
                     "label": "Les éruptions volcaniques",
-                    "explanation": "Explication",
-                    "points": 1	
+                    "points": 0
                 },
                 {
                     "label": "Les feux d'artifice",
-                    "explanation": "Explication",
-                    "points": -3	
+                    "points": -1
                 }
             ]
         },
         {
             "label": "Qu'est-ce qui est responsable de la montée des eaux ?",
             "image": "path",
-            "category": "Catégorie 1",
+            "category": "Connaissances générales",
+            "explanation": "La dilatation de l'eau, la fonte des glaciers ainsi que la fonte des calottes contribue à la montée des eaux.",
             "answers": [
                 {
                     "label": "La dilatation de l'eau",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 1
                 },
                 {
                     "label": "La fonte des glaciers",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 1
                 },
                 {
                     "label": "La fonte des calottes",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 1
                 },
                 {
                     "label": "La fonte de la banquise",
-                    "explanation": "Explication",
-                    "points": 0	
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "label": "Lesquels de ces secteurs sont parmi les plus émetteurs de CO2 ?",
+            "image": "path",
+            "category": "Connaissances générales",
+            "explanation": "Les secteurs les plus émetteurs de CO2 sont les transports à 32%, le suivi de l'agriculture à 19% et l'industrie à 18%.",
+            "answers": [
+                {
+                    "label": "Production de chaleur et d'électricité et Transports",
+                    "points": 1
+                },
+                {
+                    "label": "Agriculture, foresterie et utilisation des sols et Industrie",
+                    "points": 1
+                },
+                {
+                    "label": "Construction et production d'autre énergies",
+                    "points": 0
+                },
+                {
+                    "label": "Résidentiel et autres secteurs (tertiaire)",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "label": "Qu'est-ce qu'entraîne l'augmentation des températures due au réchauffement climatique ?",
+            "image": "path",
+            "category": "Connaissances générales",
+            "explanation": "Cela peut entrainer des incendies, de la baisse de la production agricole, etc...",
+            "answers": [
+                {
+                    "label": "Des incendies",
+                    "points": 1
+                },
+                {
+                    "label": "Baisse de la production agricole",
+                    "points": 1
+                },
+                {
+                    "label": "Renforcement de la couche d'ozone",
+                    "points": 0
+                },
+                {
+                    "label": "Baisse du risque de maladies hivernales",
+                    "points": -1
+                }
+            ]
+        },
+        {
+            "label": "Qu'est-ce que le réchauffement climatique ?",
+            "image": "path",
+            "category": "Connaissances générales",
+            "explanation": "Le réchauffement climatique est un phénomène de transformation du climat, qui correspond à une augmentation générale des températures moyennes, produit par l'effet de serre.",
+            "answers": [
+                {
+                    "label": "Un phénomène de transformation du climat",
+                    "points": 1
+                },
+                {
+                    "label": "Une augmentation générale des températures moyennes",
+                    "points": 1
+                },
+                {
+                    "label": "Cela correspond à l'effet de serre",
+                    "points": 1
+                },
+                {
+                    "label": "Un phénomène à l'échelle régionale",
+                    "points": -1
+                }
+            ]
+        },
+        {
+            "label": "Qu'est-ce qui est responsable du réchauffement climatique ?",
+            "image": "path",
+            "category": "Connaissances générales",
+            "explanation": "La surconsommation, les moyens de transports, les datacentres et bien d'autres choses sont responsables du réchauffement climatique.",
+            "answers": [
+                {
+                    "label": "La surconsommation",
+                    "points": 1
+                },
+                {
+                    "label": "Les moyens de transports",
+                    "points": 1
+                },
+                {
+                    "label": "L'augmentation des activités volcaniques",
+                    "points": 0
+                },
+                {
+                    "label": "Les datacentres",
+                    "points": 1
+                }
+            ]
+        },
+        {
+            "label": "Quelles sont les conséquences du réchauffement climatique ?",
+            "image": "path",
+            "category": "Connaissances générales",
+            "explanation": "Les conséquences du réchauffement climatique sont la sécheresse et incendies accrus, la fonte des glaciers et l'élévation du niveau des océans, et bien d'autre choses...",
+            "answers": [
+                {
+                    "label": "Sécheresse et incendies accrus",
+                    "points": 1
+                },
+                {
+                    "label": "Baisse du risque de pluie torrentielle",
+                    "points": 0
+                },
+                {
+                    "label": "La fonte des glaciers et l'élévation du niveau des océans",
+                    "points": 1
+                },
+                {
+                    "label": "Baisse des inondations",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "label": "Combien une personne moyenne produit-elle de Co2eq chaque année ?",
+            "image": "path",
+            "category": "Connaissances générales",
+            "explanation": "Une personne moyenne produit 9 tonnes de CO2eq par an.",
+            "answers": [
+                {
+                    "label": "7 tonnes de CO2eq",
+                    "points": 0
+                },
+                {
+                    "label": "9 tonnes de CO2eq",
+                    "points": 2
+                },
+                {
+                    "label": "15 tonnes de CO2eq",
+                    "points": 0
+                },
+                {
+                    "label": "12 tonnes de CO2eq",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "label": "Quelles actions sont utiles contre le réchauffement climatique ?",
+            "image": "path",
+            "category": "Gestes du quotidien",
+            "explanation": "De petit geste sont utiles. Des exemples sont : Trier les déchets, limiter le chauffage, eteindre les appareils électrique, et d'autres...",
+            "answers": [
+                {
+                    "label": "Trier les déchets",
+                    "points": 1
+                },
+                {
+                    "label": "Utiliser une voiture électrique",
+                    "points": 0
+                },
+                {
+                    "label": "Limiter le chauffage",
+                    "points": 1
+                },
+                {
+                    "label": "Eteindre les appareils électrique",
+                    "points": 1
                 }
             ]
         }

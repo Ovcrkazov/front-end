@@ -11,6 +11,7 @@ export class QuestionnaireComponent {
   public data: any = dataQ.questions;
 
   public questIndex: number[];
+  public selIndex: number[] = [];
 
   public actuelQuestIndex!: number;
 
@@ -34,8 +35,10 @@ export class QuestionnaireComponent {
   getRandomQuestion() {
     this.actuelQuestIndex =
       this.questIndex[Math.floor(Math.random() * this.questIndex.length)];
+    this.selIndex.push(this.actuelQuestIndex)
+    if (this.questIndex.length > 1) {
     this.questIndex.splice(this.actuelQuestIndex, 1);
-    console.log(this.questIndex)
+    }
   }
 
   nextQuestion() {
@@ -45,6 +48,7 @@ export class QuestionnaireComponent {
       this.selectionedQuest[2] ||
       this.selectionedQuest[3]
     ) {
+
       for (let index = 0; index < 4; index++) {
         if (this.data[this.actuelQuestIndex].answers[index].points > 0) {
           this.maxPointPotential += this.data[this.actuelQuestIndex].answers[index].points
@@ -64,10 +68,13 @@ export class QuestionnaireComponent {
         this.point += this.data[this.actuelQuestIndex].answers[3].points;
       }
 
+      if (this.point < 0) {
+        this.point = 0;
+      }
+
       this.selectionedQuest = [false, false, false, false];
 
       this.questRestante--;
-      console.log(this.questRestante)
       if (this.questRestante>0) {
         this.getRandomQuestion();
       }
