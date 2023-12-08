@@ -1,19 +1,26 @@
 #first-page {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    height: 100vh ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column ;
+    gap: 30px;
+
+    h1{
+        font-size : 4rem ;
+    }
 }
+
 #second-page {
     height: 100vh;
     width: 100vw;
 }
+
 #third-page {
     height: 100vh;
     width: 100vw;
 }
+
 #button-test {
     // Style du bouton moderne et arrondi
     border: none;
@@ -30,7 +37,7 @@
 
 #button-test:hover {
     // Style du bouton moderne et arrondi au survol
-    background-color: #000;
+    background-color: #65957F;
     color: #fff;
     cursor: pointer;
 }
