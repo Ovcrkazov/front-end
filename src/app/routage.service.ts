@@ -9,6 +9,9 @@ export class RoutageService {
 
   changePage(page: string) {
     this.pageSubject.next(page)
+    if (page !== "tetris" && window.location.origin + "/" !== window.location.href) {
+    window.location.replace(window.location.origin)
+    }
   }
 
   getPageObser()  {
