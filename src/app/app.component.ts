@@ -13,5 +13,9 @@ export class AppComponent {
   constructor(private rS: RoutageService) {
     this.obser = rS.getPageObser();
     this.routageService = rS;
+
+    if (window.location.pathname !== "/") {
+      this.routageService.changePage("tetris")
+    }
   }
 }
