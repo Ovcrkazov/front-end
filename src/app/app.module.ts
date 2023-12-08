@@ -7,6 +7,7 @@ import { CompteurComponent } from './pages/home/components/compteur/compteur.com
 import { QuestionnaireComponent } from './pages/questionnaire/questionnaire.component';
 import { InfosComponent } from './pages/infos/infos.component';
 import { PlanetComponent } from './pages/planet/planet.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PlanetComponent } from './pages/planet/planet.component';
     PlanetComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
