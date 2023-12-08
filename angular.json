@@ -117,10 +117,15 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/planet.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "bff3b757-5fa3-4449-b0ad-6466faef2a3e"
   }
 }

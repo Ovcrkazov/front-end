@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RoutageService } from 'src/app/routage.service';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  routage: RoutageService;
 
+  constructor(private rS: RoutageService) {
+    this.routage = rS;
+  }
 }
