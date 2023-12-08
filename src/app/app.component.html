@@ -2,7 +2,8 @@
 <header>
   <a (click)="this.routageService.changePage('home')" >
     <picture>
-      <img  src="https://assets.ovcrkazov.fr/images/logo.png" />
+      <img src="https://assets.ovcrkazov.fr/images/logo.png" ng-click="count = count + 1" ng-init="count=0"/>
+      <p>The button has been clicked {{count}} times.</p>
     </picture>
   </a>
   <ul>
