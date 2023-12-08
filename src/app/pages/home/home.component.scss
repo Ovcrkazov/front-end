@@ -15,6 +15,9 @@
         h1{
             font-size : 4rem ;
             color: #000000;
+            &:hover{
+                cursor: text;
+            }
         }
 
         button {
