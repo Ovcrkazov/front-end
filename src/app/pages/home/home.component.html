@@ -1,13 +1,14 @@
 <section id="first-page">
     <div class="img-shadow">
-        <h1>Lorem ipsum dolor sit amet</h1>
-        <button  type="button" (click)="this.routage.changePage('questionnaire')">
+        <div id="main-title">
+            <img (click)="this.routage.changePage('planet')" src="https://assets.ovcrkazov.fr/images/earth.png" />
+            <h1>Lorem ipsum dolor sit amet</h1>
+        </div>
+        <button type="button" (click)="this.routage.changePage('questionnaire')">
             Testez vos connaissances 
             <picture>
-                <img  src="/assets/fleche.svg" />
+                <img src="/assets/fleche.svg" />
             </picture>
         </button>   
-        
     </div>
-    
 </section>
