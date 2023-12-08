@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50wv;
+    height: 33vw;
     background-color: #001a2a;
     padding: 30px;
     font-size: 20px;
@@ -14,4 +14,11 @@
     margin-right: auto;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    p{
+        margin: 30px;
+    }
+
+    b{
+        font-weight:900;
+    }
 }
