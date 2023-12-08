@@ -8,7 +8,7 @@
               	{
                   	"label": "Diazote (78 %), Dioxygène (21 %) et Argon (1%)",
                     "explanation": "Explication",
-          			"points": 0	
+          			"points": 1	
                 },
               	{
                     "label": "Dioxyde de carbone (78 %), Dioxygène (21 %) et Diazote (1%)",
@@ -18,7 +18,7 @@
                 {
                     "label": "Méthane (78 %), Dioxyde de carbone (21 %) et Dioxygène (1%)",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 0
                 },
                 {
                     "label": "Dioxygène (78 %), Propane (21 %) et Méthane (1%)",
@@ -35,22 +35,22 @@
                 {
                     "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -2	
                 },
                     {
                     "label": "Se définit à partir de statistiques sur une longue période",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 3	
                 },
                 {
                     "label": "Se définit à partir de conditions météorologiques d'un instant donné ou d'une courte période",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -2	
                 },
                 {
                     "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 1
                 }
           ]
       },
@@ -62,17 +62,17 @@
                 {
                     "label": "À retenir la chaleur terrestre provenant du soleil",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 3	
                 },
                 {
                     "label": "Permet à notre planète d'avoir une température moyenne de +15°C à sa surface",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -2	
                 },
                 {
                     "label": "À faire une barrière contre les rayons cosmiques nocifs",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -1	
                 },
                 {
                     "label": "À réguler la météo en favorisant la formation de nuages et en influençant les précipitations",
@@ -89,7 +89,7 @@
                 {
                     "label": "Une partie est immédiatement renvoyée dans l'espace grâce à l'effet d'albédo (réfléchissement)",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 2
                 },
                 {
                     "label": "Une partie vient chauffer l'atmosphère et la surface terrestre",
@@ -99,7 +99,7 @@
                 {
                     "label": "Une partie de l'énergie solaire est réfléchie par les particules atmosphériques, créant la luminosité du ciel que nous percevons comme la couleur bleue",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -1	
                 },
                 {
                     "label": "Une partie contribue à la création de la couche limite atmosphérique",
@@ -116,17 +116,17 @@
                 {
                     "label": "Le dioxyde de carbone (CO2), Le protoxyde d'azote (N2O)",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 2
                 },
                 {
                     "label": "Le méthane (CH4), Les gaz fluorés",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -1	
                 },
                 {
                     "label": "Le Xénon (Xe), L'Hélium (He)",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -1
                 },
                 {
                     "label": "L'Oxygène (O2)",
@@ -143,12 +143,12 @@
                 {
                     "label": "Groupe d'experts intergouvernemental sur l'évolution du climat",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 2
                 },
                 {
                     "label": "Organisme de l'ONU chargé d'évaluer, à travers la publication régulière de rapports, l'ensemble des connaissances scientifiques relatives au changement climatique",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -3
                 },
                 {
                     "label": "Groupe International sur l'Énergie du Charbon",
@@ -158,7 +158,7 @@
                 {
                     "label": "Organisation mondiale axée sur la promotion et le développement de l'énergie à base de charbon",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 1	
                 }
             ]
         },
@@ -175,12 +175,12 @@
                 {
                     "label": "La fonte de la cryosphère (manteau neigeux, banquise et glaciers de montagne, du Groënland ou de l'Antarctique)",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 2	
                 },
                 {
                     "label": "La migration des pingouins vers l'équateur",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -1	
                 },
                 {
                     "label": "L'augmentation du nombre de jours ensoleillés",
@@ -202,17 +202,17 @@
                 {
                     "label": "La déforestation",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 2
                 },
                 {
                     "label": "Les éruptions volcaniques",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": 1	
                 },
                 {
                     "label": "Les feux d'artifice",
                     "explanation": "Explication",
-                    "points": 0	
+                    "points": -3	
                 }
             ]
         },
