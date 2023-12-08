@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 #first-page {
     background-image: url(/assets/backgroud_climate_change.png);
     background-size: cover;
@@ -15,6 +17,7 @@
         h1{
             font-size : 4rem ;
             color: #000000;
+            font-family: 'Roboto', sans-serif;
             &:hover{
                 cursor: text;
             }
