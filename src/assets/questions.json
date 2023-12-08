@@ -1,247 +1,54 @@
 {
-	"questions": [
-      	{
-          	"label": "De quoi est composé l'enveloppe gazeuse de la Terre (l'atmosphère) ?",
-			"image": "path",
-            "category": "",
-          	"answers": [
-              	{
-                  	"label": "Diazote (78 %), Dioxygène (21 %) et Argon (1%)",
-                    "explanation": "Explication",
-          			"points": 1	
-                },
-              	{
-                    "label": "Dioxyde de carbone (78 %), Dioxygène (21 %) et Diazote (1%)",
-                    "explanation": "Explication",
-                    "points": 0	
-                },
-                {
-                    "label": "Méthane (78 %), Dioxyde de carbone (21 %) et Dioxygène (1%)",
-                    "explanation": "Explication",
-                    "points": 0
-                },
-                {
-                    "label": "Dioxygène (78 %), Propane (21 %) et Méthane (1%)",
-                    "explanation": "Explication",
-                    "points": 0	
-                }
-			]
+  "questions": [
+    {
+      "label": "De quoi est composé l'enveloppe gazeuse de la Terre (l'atmosphère) ?",
+      "image": "path",
+      "explanation": "Explication",
+
+      "category": "",
+      "answers": [
+        {
+          "label": "Diazote (78 %), Dioxygène (21 %) et Argon (1%)",
+          "points": 1
         },
         {
-            "label": "Qu'est-ce que le climat ?",
-			"image": "path",
-            "category": "Catégorie 1",
-            "answers": [
-                {
-                    "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
-                    "explanation": "Explication",
-                    "points": -2	
-                },
-                    {
-                    "label": "Se définit à partir de statistiques sur une longue période",
-                    "explanation": "Explication",
-                    "points": 3	
-                },
-                {
-                    "label": "Se définit à partir de conditions météorologiques d'un instant donné ou d'une courte période",
-                    "explanation": "Explication",
-                    "points": -2	
-                },
-                {
-                    "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
-                    "explanation": "Explication",
-                    "points": 1
-                }
-          ]
-      },
-      {
-          "label": "À quoi servent les gaz à effet de serre ?",
-          "image": "path",
-          "category": "Catégorie 1",
-          "answers": [
-                {
-                    "label": "À retenir la chaleur terrestre provenant du soleil",
-                    "explanation": "Explication",
-                    "points": 3	
-                },
-                {
-                    "label": "Permet à notre planète d'avoir une température moyenne de +15°C à sa surface",
-                    "explanation": "Explication",
-                    "points": -2	
-                },
-                {
-                    "label": "À faire une barrière contre les rayons cosmiques nocifs",
-                    "explanation": "Explication",
-                    "points": -1	
-                },
-                {
-                    "label": "À réguler la météo en favorisant la formation de nuages et en influençant les précipitations",
-                    "explanation": "Explication",
-                    "points": 0	
-                }
-            ]
+          "label": "Dioxyde de carbone (78 %), Dioxygène (21 %) et Diazote (1%)",
+          "points": 0
         },
         {
-            "label": "Qu'arrive-t-il à l'énergie solaire lorsqu'elle pénètre la couche atmosphérique ?",
-            "image": "path",
-            "category": "Catégorie 1",
-            "answers": [
-                {
-                    "label": "Une partie est immédiatement renvoyée dans l'espace grâce à l'effet d'albédo (réfléchissement)",
-                    "explanation": "Explication",
-                    "points": 2
-                },
-                {
-                    "label": "Une partie vient chauffer l'atmosphère et la surface terrestre",
-                    "explanation": "Explication",
-                    "points": 0	
-                },
-                {
-                    "label": "Une partie de l'énergie solaire est réfléchie par les particules atmosphériques, créant la luminosité du ciel que nous percevons comme la couleur bleue",
-                    "explanation": "Explication",
-                    "points": -1	
-                },
-                {
-                    "label": "Une partie contribue à la création de la couche limite atmosphérique",
-                    "explanation": "Explication",
-                    "points": 0	
-                }
-            ]
+          "label": "Méthane (78 %), Dioxyde de carbone (21 %) et Dioxygène (1%)",
+          "points": 0
         },
         {
-            "label": "Quels sont les différents types de gaz à effet de serre ?",
-            "image": "path",
-            "category": "Catégorie 1",
-            "answers": [
-                {
-                    "label": "Le dioxyde de carbone (CO2), Le protoxyde d'azote (N2O)",
-                    "explanation": "Explication",
-                    "points": 2
-                },
-                {
-                    "label": "Le méthane (CH4), Les gaz fluorés",
-                    "explanation": "Explication",
-                    "points": -1	
-                },
-                {
-                    "label": "Le Xénon (Xe), L'Hélium (He)",
-                    "explanation": "Explication",
-                    "points": -1
-                },
-                {
-                    "label": "L'Oxygène (O2)",
-                    "explanation": "Explication",
-                    "points": 0	
-                }
-            ]
-        },
-        {
-            "label": "Qu'est-ce que le GIEC ?",
-            "image": "path",
-            "category": "Catégorie 1",
-            "answers": [
-                {
-                    "label": "Groupe d'experts intergouvernemental sur l'évolution du climat",
-                    "explanation": "Explication",
-                    "points": 2
-                },
-                {
-                    "label": "Organisme de l'ONU chargé d'évaluer, à travers la publication régulière de rapports, l'ensemble des connaissances scientifiques relatives au changement climatique",
-                    "explanation": "Explication",
-                    "points": -3
-                },
-                {
-                    "label": "Groupe International sur l'Énergie du Charbon",
-                    "explanation": "Explication",
-                    "points": 0	
-                },
-                {
-                    "label": "Organisation mondiale axée sur la promotion et le développement de l'énergie à base de charbon",
-                    "explanation": "Explication",
-                    "points": 1	
-                }
-            ]
-        },
-        {
-            "label": "Quels exemples d'indicateurs le GIEC met-il en avant attestant du changement climatique en cours ?",
-            "image": "path",
-            "category": "Catégorie 1",
-            "answers": [
-                {
-                    "label": "L'augmentation du niveau moyen de la mer",
-                    "explanation": "Explication",
-                    "points": 0	
-                },
-                {
-                    "label": "La fonte de la cryosphère (manteau neigeux, banquise et glaciers de montagne, du Groënland ou de l'Antarctique)",
-                    "explanation": "Explication",
-                    "points": 2	
-                },
-                {
-                    "label": "La migration des pingouins vers l'équateur",
-                    "explanation": "Explication",
-                    "points": -1	
-                },
-                {
-                    "label": "L'augmentation du nombre de jours ensoleillés",
-                    "explanation": "Explication",
-                    "points": 0	
-                }
-            ]
-        },
-        {
-            "label": "D'où provient le CO2 ?",
-            "image": "path",
-            "category": "Catégorie 1",
-            "answers": [
-                {
-                    "label": "La combustion des énergies fossiles",
-                    "explanation": "Explication",
-                    "points": 0	
-                },
-                {
-                    "label": "La déforestation",
-                    "explanation": "Explication",
-                    "points": 2
-                },
-                {
-                    "label": "Les éruptions volcaniques",
-                    "explanation": "Explication",
-                    "points": 1	
-                },
-                {
-                    "label": "Les feux d'artifice",
-                    "explanation": "Explication",
-                    "points": -3	
-                }
-            ]
-        },
-        {
-            "label": "Qu'est-ce qui est responsable de la montée des eaux ?",
-            "image": "path",
-            "category": "Catégorie 1",
-            "answers": [
-                {
-                    "label": "La dilatation de l'eau",
-                    "explanation": "Explication",
-                    "points": 0	
-                },
-                {
-                    "label": "La fonte des glaciers",
-                    "explanation": "Explication",
-                    "points": 0	
-                },
-                {
-                    "label": "La fonte des calottes",
-                    "explanation": "Explication",
-                    "points": 0	
-                },
-                {
-                    "label": "La fonte de la banquise",
-                    "explanation": "Explication",
-                    "points": 0	
-                }
-            ]
+          "label": "Dioxygène (78 %), Propane (21 %) et Méthane (1%)",
+          "points": 0
         }
-	]
+      ]
+    },
+    {
+      "label": "Qu'est-ce que le climat ?",
+      "image": "path",
+      "category": "Catégorie 1",
+      "explanation": "Explication",
+
+      "answers": [
+        {
+          "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
+          "points": -2
+        },
+        {
+          "label": "Se définit à partir de statistiques sur une longue période",
+          "points": 3
+        },
+        {
+          "label": "Se définit à partir de conditions météorologiques d'un instant donné ou d'une courte période",
+          "points": -2
+        },
+        {
+          "label": "Ensemble des éléments qui caractérisent l'état moyen de l'atmosphère",
+          "points": 1
+        }
+      ]
+    }
+  ]
 }
