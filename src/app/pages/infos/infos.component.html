@@ -1,11 +1,33 @@
-<div *ngFor="let item of list">
-    <div class="info">
-        <div class="titre">
-            <h2>{{item.title}}</h2>
+<h1>Informations</h1>
+<div class="ligne">
+    <div *ngFor="let item of list">
+        <div *ngIf="item.categorie == 'Informations'">
+            <div class="infoInf">
+                <div class="titre">
+                    <h2>{{item.title}}</h2>
+                </div>
+                <div class="contenu">
+                    <!-- Ajouter une petite barre pour séparer le titre du contenu-->
+                    <p>{{item.content}}</p>
+                </div>
+            </div>
         </div>
-        <div class="contenu">
-            <!-- Ajouter une petite barre pour séparer le titre du contenu-->
-            <p>{{item.content}}</p>
+    </div>
+</div>
+
+<h1>Idées reçues</h1>
+<div class="ligne">
+    <div *ngFor="let item of list">    
+        <div *ngIf="item.categorie == 'IdeesRecues'">
+            <div class="infoIR">
+                <div class="titre">
+                    <h2>{{item.title}}</h2>
+                </div>
+                <div class="contenu">
+                    <!-- Ajouter une petite barre pour séparer le titre du contenu-->
+                    <p>{{item.content}}</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

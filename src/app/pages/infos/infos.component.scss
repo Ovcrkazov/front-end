@@ -1,13 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-.info {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+h1{
+    font-size : 4rem ;
+    color: #000000;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: flex-start ;
+    align-items: center ;
+    padding: 30px;
+}
+
+.ligne{
+    display: flex ;
+    flex-direction: row ;
+    justify-content: flex-start ;
+    align-items: center ;
+    flex-wrap: wrap ;
+}
+
+
+.infoIR {
+    width: 320px; 
+    height: 370px;
+    margin: 20px;
     border: 1px solid #000;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: rgba(242, 255, 0, 0.4);
+}
+
+.infoInf {
+    width: 300px; 
+    height: 400px;
+    margin: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: rgb(111, 234, 100, 0.4);
 }
 
 .titre {
@@ -19,9 +46,9 @@
 }
 
 .contenu {
-    width:100%;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.4em;
 }
 
 h2{
