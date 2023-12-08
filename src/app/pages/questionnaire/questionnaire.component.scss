@@ -7,12 +7,25 @@
   flex-direction: column;
 }
 
+h1 {
+    font-size: 3rem;
+    color: #000000;
+    text-transform: uppercase;
+    align-self: center;
+}
+
 .expl {
-  padding: 10px;
-  display: grid;
-grid-template-rows: 1fr 1fr;
-border: solid 1px grey;
-  margin: 5px;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #80cbc4;
+    border: 1px solid #075a8c;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    max-width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #Questionnaire {
