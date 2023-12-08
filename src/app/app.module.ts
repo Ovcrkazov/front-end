@@ -8,6 +8,7 @@ import { QuestionnaireComponent } from './pages/questionnaire/questionnaire.comp
 import { InfosComponent } from './pages/infos/infos.component';
 import { PlanetComponent } from './pages/planet/planet.component';
 import { FormsModule } from '@angular/forms';
+import { TetrisComponent } from './pages/tetris/tetris.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     CompteurComponent,
     QuestionnaireComponent,
     InfosComponent,
-    PlanetComponent
+    PlanetComponent,
+    TetrisComponent
   ],
   imports: [
     BrowserModule,
