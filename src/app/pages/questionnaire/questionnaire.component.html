@@ -2,13 +2,22 @@
     {{ point }} / {{ maxPointPotential }}
 </section>
 <ng-template #elseBlock>
-<section >
-<p>{{ data[this.actuelQuestIndex].label }}</p>
-<label><input type="checkbox" [(ngModel)]="this.selectionedQuest[0]">{{ this.data[this.actuelQuestIndex].answers[0].label }}</label>
-<label><input type="checkbox" [(ngModel)]="this.selectionedQuest[1]">{{ this.data[this.actuelQuestIndex].answers[1].label }}</label>
-<label><input type="checkbox" [(ngModel)]="this.selectionedQuest[2]">{{ this.data[this.actuelQuestIndex].answers[2].label }}</label>
-<label><input type="checkbox" [(ngModel)]="this.selectionedQuest[3]">{{ this.data[this.actuelQuestIndex].answers[3].label }}</label>
 
-<button (click)="nextQuestion()">Prochaine question</button>
+<section id="Questionnaire">
+    <div id="ContentQuestionnaire">
+        <picture>
+            <img src="/assets/backgroud_climate_change.png" />
+        </picture>
+        <p>{{ data[this.actuelQuestIndex].label }}</p>
+        <div id="IdGridReponses">
+            <label class="col1-ligne1"><input type="checkbox" [(ngModel)]="this.selectionedQuest[0]">{{ this.data[this.actuelQuestIndex].answers[0].label }}</label>
+            <label class="col2-ligne1"><input type="checkbox" [(ngModel)]="this.selectionedQuest[1]">{{ this.data[this.actuelQuestIndex].answers[1].label }}</label>
+            <label class="col1-ligne2"><input type="checkbox" [(ngModel)]="this.selectionedQuest[2]">{{ this.data[this.actuelQuestIndex].answers[2].label }}</label>
+            <label class="col2-ligne2"><input type="checkbox" [(ngModel)]="this.selectionedQuest[3]">{{ this.data[this.actuelQuestIndex].answers[3].label }}</label>
+        </div>  
+            
+        <button (click)="nextQuestion()">Prochaine question</button>
+    </div>
+    
 </section>
 </ng-template>
