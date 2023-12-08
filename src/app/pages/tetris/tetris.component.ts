@@ -354,11 +354,9 @@ export class TetrisComponent implements AfterViewInit {
     playerReset();
     updateScore();
     update();
-    console.log(player.score);
   }
 
   public result(score: any) {
-    console.log(this.error)
     if (this.error) {
       if (score >= 404) {
         // On affiche le résultat dans la section "resulats" en créant un élément HTML la balise <a> ne doit pas devenir bleu et soulignée
