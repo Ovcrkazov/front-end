@@ -1,14 +1,72 @@
 #first-page {
-    height: 100vh ;
-    display: flex ;
-    justify-content: center ;
-    align-items: center ;
-    flex-direction: column ;
-    gap: 30px;
+    background-image: url(/assets/backgroud_climate_change.png);
+    background-size: cover;
+    height: calc(100vh - 70px);
+    
 
-    h1{
-        font-size : 4rem ;
+    .img-shadow{
+        background-color: rgba(0, 0, 0, 0.4); 
+        display: flex ;
+        justify-content: center ;
+        align-items: center ;
+        flex-direction: column ;
+        gap: 60px;
+        height: calc(100vh - 70px) ;
+
+        h1{
+            font-size : 4rem ;
+            color: #000000;
+        }
+
+        button {
+            // Style du bouton moderne et arrondi
+            border: none;
+            border-radius: 5px;
+            background-color: #e7cfcf;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            font-size: 20px;
+            color: #000;
+            text-align: center;
+            transition: all 0.3s ease-in-out;
+        
+            display: flex ;
+            flex-direction: row ;
+            justify-content: center ;
+            align-items: center ;
+        
+            gap: 10px ;
+        
+        
+            &:hover {
+                // Style du bouton moderne et arrondi au survol
+                background-color: #65957F;
+                color: #FFFAFA;
+                cursor: pointer;
+            }
+        
+            &:active {
+                // Style du bouton moderne et arrondi au clic
+                background-color: #000;
+                color: #FFFAFA;
+                cursor: pointer;
+            }
+
+            picture{
+                display: inline-flex;
+                align-items: center;
+
+                img{
+                    width: 25px;
+                }
+                
+            }
+        }
+
+        
     }
+
+    
 }
 
 #second-page {
@@ -21,30 +79,3 @@
     width: 100vw;
 }
 
-#button-test {
-    // Style du bouton moderne et arrondi
-    border: none;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
-    color: #000;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-}
-
-#button-test:hover {
-    // Style du bouton moderne et arrondi au survol
-    background-color: #65957F;
-    color: #fff;
-    cursor: pointer;
-}
-
-#button-test:active {
-    // Style du bouton moderne et arrondi au clic
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-}

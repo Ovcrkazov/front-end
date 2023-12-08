@@ -1,18 +1,21 @@
 <!-- NAVBAR -->
 <section>
-  <ul>
+  <a (click)="this.routageService.changePage('home')" >
     <picture>
-      <img src="https://assets.ovcrkazov.fr/images/logo.png" />
+      <img  src="https://assets.ovcrkazov.fr/images/logo.png" />
     </picture>
-    <li (click)="changePage('home')">Accueil</li>
-    <li (click)="changePage('questionnaire')">Questionnaire</li>
-    <li (click)="changePage('infos')">Infos</li>
-    <li (click)="changePage('gestes-du-quotidien')">Gestes du quotidien</li>
+  </a>
+  <ul>
+    <li (click)="this.routageService.changePage('home')">Accueil</li>
+    <li (click)="this.routageService.changePage('questionnaire')">Questionnaire</li>
+    <li (click)="this.routageService.changePage('infos')">Infos</li>
+    <li (click)="this.routageService.changePage('gestes-du-quotidien')">Gestes du quotidien</li>
+  
   </ul>
 </section>
 
 <!-- Corps de la page -->
-<span [ngSwitch]="this.page">
+<span [ngSwitch]="this.obser | async">
 <div *ngSwitchCase="'home'">
   <app-home></app-home>
 </div>

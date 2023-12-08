@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { RoutageService } from './routage.service';
 
 @Component({
   selector: 'app-root',
@@ -6,10 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'front-end';
-  page: string = 'home'
-
-  changePage(page: string) {
-    this.page = page
+  public obser: Observable<string>;
+  public routageService: RoutageService;
+  constructor(private rS: RoutageService) {
+    this.obser = rS.getPageObser();
+    this.routageService = rS;
   }
 }
