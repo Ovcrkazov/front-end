@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./infos.component.scss']
 })
 export class InfosComponent {
-
+    public list:{title:string, content:string}[] = [{title:"Titre", content:"Contenu"}, {title:"Titre2", content:"Contenu2"}];
 }
