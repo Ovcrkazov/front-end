@@ -1,8 +1,8 @@
 <!-- NAVBAR -->
 <header>
-  <a (click)="this.routageService.changePage('home')" >
+  <a (click)="this.routageService.changePage('home')" (click)="this.addCharlie()">
     <picture>
-      <img  src="https://assets.ovcrkazov.fr/images/logo.png" />
+      <img [src]="lienImage" />
     </picture>
   </a>
   <ul>
