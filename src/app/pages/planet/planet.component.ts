@@ -16,7 +16,7 @@ export class PlanetComponent implements AfterViewInit{
   @ViewChild('canvasAAfficher') el!: ElementRef;
 
   ngAfterViewInit() {
-  
+
     this.start();
 
   }
@@ -141,7 +141,6 @@ export class PlanetComponent implements AfterViewInit{
 
   public start() {
     this.scene = new THREE.Scene();
-    console.log(this.el)
     if (this.el) {
     this.renderer = new THREE.WebGLRenderer({ antialias: true, canvas: this.el.nativeElement});
     this.renderer.setPixelRatio(window.devicePixelRatio);
@@ -195,7 +194,6 @@ export class PlanetComponent implements AfterViewInit{
 
 
   public animate() {
-    console.log("ergsetgsrths", this)
     if (this.renderer) {
     this.renderer.render(this.scene, this.camera);
     }
@@ -204,7 +202,7 @@ export class PlanetComponent implements AfterViewInit{
     this.planet.parent.rotation.x += Math.PI / 35;
     this.planet.parent.rotation.y += Math.PI / 60;
     }
-    
+
     requestAnimationFrame(() => {this.animate()});
   }
 

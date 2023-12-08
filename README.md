@@ -1,27 +1,21 @@
-# FrontEnd
+# Овкразов
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
+Овкразов est une équipe projet de la Nuit De l'Info constituée de :
+- Lucie
+- Thomas
+- Guillaume
+- Néo
+- Nicolas
+- Pierre
+- Alexandre
 
-## Development server
+## Démarche
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Pour l'easter-egg
 
-## Code scaffolding
+Nous avons décidé de cacher l'easter-egg **sur l'icône de la planète Terre de la page d'accueil de notre site Web**. Ce lien redirige vers une page en [ThreeJS](https://threejs.org/) qui affiche la Terre très simplement modélisée en 3D. La génération des forêts est aléatoire et la planète suit un axe prédéfini.
+Pour ce qui est de l'explication derrière, le pipeline de pensée était assez simple. Quelque chose qui peut représenter l'environnement, de manière un petit peu originale sur un site Web, et qui peut changer à chaque rechargement. On peut extrapoler et trouver une certaine poésie dans le mouvement rotatoire presque erratique de notre globe.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Pour trouver Charlie 
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Nous avons décidé de cacher Charlie **Sur l'icone principale du site en haut a gauche**. Il faut cliquer 30 fois dessus pour que le logo change et devienne Charlie.
